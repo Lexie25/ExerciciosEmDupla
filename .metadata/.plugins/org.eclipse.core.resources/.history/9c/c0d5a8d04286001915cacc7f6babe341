@@ -1,0 +1,16 @@
+package br.com.zup.votos;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class candidatoteste {
+
+	public static void main(String[] args) {
+		Candidato cand = new Candidato(Brenda,25, 1);
+		Scanner scan = new Scanner(System.in);
+		
+	
+	
+	}
+
+}

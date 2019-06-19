@@ -1,0 +1,20 @@
+package br.com.zup.votos;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class candidatoteste {
+
+	public static void main(String[] args) {
+		Candidato cand = new Candidato("Brenda",25, 0);
+		Candidatos cand1 = new Candidato ("Andressa",1,0) ;
+		Scanner scan = new Scanner(System.in);
+		List<Candidato> listaCandidatos = new ArrayList<Candidato>();
+		listaCandidatos.add(cand);
+		
+		
+	
+	
+	}
+
+}

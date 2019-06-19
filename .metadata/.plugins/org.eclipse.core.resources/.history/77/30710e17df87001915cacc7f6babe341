@@ -1,0 +1,66 @@
+package br.com.zup.Países;
+import java.util.List;
+import java.util.ArrayList;
+public class Pais {
+
+	String codigoISO= "BRA";
+	String nome;
+	float populacao;
+	float dimencao;
+	List<String> paisesFronteiras = new ArrayList<String>();
+	public Pais(String codigoISO, String nome, float populacao, float dimencao, List<String> paisesfronteiras) {
+		super();
+		this.codigoISO = codigoISO;
+		this.nome = nome;
+		this.populacao = populacao;
+		this.dimencao = dimencao;
+		this.paisesFronteiras = paisesfronteiras;
+	}
+	public String getCodigoISO() {
+		return codigoISO;
+	}
+	public void setCodigoISO(String codigoISO) {
+		this.codigoISO = codigoISO;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public float getPopulacao() {
+		return populacao;
+	}
+	public void setPopulacao(float populacao) {
+		this.populacao = populacao;
+	}
+	public float getDimencao() {
+		return dimencao;
+	}
+	public void setDimencao(float dimencao) {
+		this.dimencao = dimencao;
+	}
+	public List<String> getPaisesfronteiras() {
+		return paisesFronteiras;
+	}
+	public void setPaisesfronteiras(List<String> paisesfronteiras) {
+		this.paisesFronteiras = paisesfronteiras;
+	}
+
+	@Override
+	public String toString() {
+		String modelo = "";
+		modelo += "Código ISO -> " + this.getCodigoISO();
+		modelo += "Nome do país -> " + this.getNome();
+		modelo += "População -> " + this.getPopulacao();
+		modelo += "Dimensão -> " + this.getDimencao();
+		modelo += "Países que fazem fronteira " + this.getPaisesfronteiras();
+
+		return modelo;
+
+	}
+
+
+
+
+}

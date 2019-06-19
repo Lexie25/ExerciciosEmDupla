@@ -1,0 +1,29 @@
+package br.com.zup.aula7;
+import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("digite um numero : ");	
+		int parimpar = scan.nextInt();
+		List<Integer> colecao = new ArrayList<Integer>();
+			
+		while(parimpar != 0  ) {
+			
+			System.out.println("digite um numero : ");			
+
+			if (parimpar % 2 ==0) {
+
+				System.out.println("É par! ");
+
+			}else {
+				colecao.add(parimpar);
+				System.out.println("É impar! ");
+			}
+		}	
+		System.out.println(colecao);
+	}
+}
+

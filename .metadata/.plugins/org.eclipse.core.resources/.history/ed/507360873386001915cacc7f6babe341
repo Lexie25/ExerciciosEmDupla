@@ -1,0 +1,25 @@
+package br.com.zup.tabuada;
+import java.util.Scanner;
+public class Tabuada {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite o numero da tabuada : ");
+		int numero = scan.nextInt(); 
+		int cont = 1;
+		while(cont == 1) {
+			
+			for(int controle = 0; controle <=10 ;controle ++) {
+				System.out.println(numero + " X " + controle +" = " +(numero * controle));
+				
+			}
+			System.out.println("Quer continuar digite 1 ");
+			cont = scan.nextInt();
+		}
+		
+
+	}
+
+}
+

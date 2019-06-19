@@ -1,0 +1,18 @@
+package br.com.zup.Países;
+import java.util.Scanner;
+import java.util.List;
+import java.util.ArrayList;
+public class Brasil {
+	
+	Scanner scan = new Scanner(System.in);
+	
+	String codigo = "BRA";
+	String nome;
+    float populacao;
+    float dimencao;
+    
+    List<String> paisesfronteiras = new ArrayList<String>();
+    
+    
+	
+}

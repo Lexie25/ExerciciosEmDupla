@@ -1,0 +1,8 @@
+package br.com.zup.votos;
+
+public class candidato {
+
+	String nome;
+	int numero;
+	
+}

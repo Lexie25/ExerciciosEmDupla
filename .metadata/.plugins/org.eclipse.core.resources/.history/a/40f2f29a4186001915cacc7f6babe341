@@ -1,0 +1,16 @@
+package br.com.zup.votos;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class candidatoteste {
+
+	public static void main(String[] args) {
+
+		Map<String,Integer> urna = new HashMap<String, Integer>();
+		Scanner scan = new Scanner(System.in);
+		nome = scan.nextLine();
+		
+	}
+
+}
